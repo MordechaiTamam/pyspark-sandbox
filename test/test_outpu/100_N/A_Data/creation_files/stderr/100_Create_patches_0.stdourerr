@@ -1,0 +1,18 @@
+curr mepy: /homes/modit/dev/mepy_algo
+
+
+executing lambda from file at:
+/homes/modit/dev/sandbox/test/test_outpu/100_N/A_Data/creation_files/100_Create_patches_pickled_lambda
+ "LambdaArg(arg=None, pickle='/homes/modit/dev/sandbox/test/test_outpu/100_N/A_Data/creation_files/100_Create_patches_pickled_lambda_args_0')"
+
+
+/usr/lib/python2.7/pkgutil.py:186: ImportWarning: Not importing directory '/usr/local/lib/python2.7/dist-packages/google': missing __init__.py
+  file, filename, etc = imp.find_module(subname, path)
+/usr/lib/python2.7/pkgutil.py:186: ImportWarning: Not importing directory '/usr/local/lib/python2.7/dist-packages/mpl_toolkits': missing __init__.py
+  file, filename, etc = imp.find_module(subname, path)
+/usr/lib/python2.7/pkgutil.py:186: ImportWarning: Not importing directory '/usr/local/lib/python2.7/dist-packages/flufl': missing __init__.py
+  file, filename, etc = imp.find_module(subname, path)
+Opening /mobileye/algo_REM_02/matany/4.10.3/Jer5_17July//3.5_ASF_Data/asf.h5 in read-only mode
+creating path patch_center:(31.79842694140539, 35.21811931828068), link_key:(329266105, 2392848098, 217282007)
+lambda returned a result of
+'/homes/modit/dev/sandbox/test/test_outpu/100_N/A_Data/return_files/100_Create_patches_0__ret_pickle'

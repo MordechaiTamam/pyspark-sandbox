@@ -1,0 +1,13 @@
+[mejs]
+                job = 100_Create_patches
+                shell = /bin/tcsh -f
+                timeout = 0
+                version = 1.0
+                requires = 64bit
+                interactive = 1
+                working_dir = /homes/modit/dev/sandbox/test/test_outpu/100_N/A_Data
+                retry = True
+                memory_quota = 8*1024
+[commands]
+
+command_0 = source /homes/modit/dev/mepy_algo//init.sh /homes/modit/dev/mepy_algo/; python /homes/modit/dev/mepy_algo/appcode/REM/map_creation/create_route_refactored/steps/HeavyJobLifter/LambdaUnWrapper.pyc -f /homes/modit/dev/sandbox/test/test_outpu/100_N/A_Data/creation_files/100_Create_patches_pickled_lambda -a "LambdaArg(arg=None, pickle='/homes/modit/dev/sandbox/test/test_outpu/100_N/A_Data/creation_files/100_Create_patches_pickled_lambda_args_0')" |& tee /homes/modit/dev/sandbox/test/test_outpu/100_N/A_Data/creation_files/stderr/100_Create_patches_0.stdourerr

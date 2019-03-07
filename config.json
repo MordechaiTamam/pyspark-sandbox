@@ -1,0 +1,6 @@
+{
+"default_input_dir":"xxx",
+"default_output_dir":"yyy",
+"step_output_dir":{"patch_def":"output/step_0","nsf_alignment":"output/step_1"},
+"steps_to_run":["nsf_alignment","patch_def"]
+}
